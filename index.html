@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Game</h1><br>
+        <div class="blocks">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+        <h4 id="count"></h4><br><br><br>
+        <div class="bet">
+            Balance: <i id="coin"></i>
+                <form action="">
+                   Bet: 
+                   <select name="bet" id="bet">
+                        <option value="1">1</option>
+                        <option value="10">10</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="1000">1000</option>
+                        <option value="10000">10000</option>
+                        <option value="20000">20000</option>
+                        <option value="50000">50000</option>
+                   </select>
+               </form>
+        </div>
+    </div>
+    <div class="wrap">
+        <h1>Jackpot</h1><br>
+        <div class="blocks">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <h1>x20</h1>
+        </div>
+        <div class="color-wrap">
+            <div class="color-box" style="color: black; background: yellow"></div>
+            <div class="color-box" style="color: black; background: white"></div>
+            <div class="color-box" style="color: black; background: magenta"></div>
+            <div class="color-box" style="color: white; background: red"></div>
+            <div class="color-box" style="color: white; background: blue"></div>
+            <div class="color-box" style="color: white; background: green"></div>
+        </div><br><br>
+        <h5 id="err"></h5>
+        <!-- <div class="input-wrap">
+            <label for="bet">1</label>
+            <input type="radio" value="1" name="bet" id="bet">
+            <label for="bet1">5</label>
+            <input type="radio" value="5" name="bet" id="bet1">
+            <label for="bet2">50</label>
+            <input type="radio" value="50" name="bet" id="bet2">
+            <label for="bet3">100</label>
+            <input type="radio" value="100" name="bet" id="bet3">
+            <label for="bet4">1k</label>
+            <input type="radio" value="1000" name="bet" id="bet4">
+
+        </div> -->
+        <div class="win" style="display: none;">
+            <h1 id="winCount">WIN</h1>
+            <p id="credit"></p>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

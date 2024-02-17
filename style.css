@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+    font-family: sans-serif;
+    color: #e4cb9a;
+    background: #241801;
+}
+
+
+
+#count{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 30px;
+    height: 3rem;
+}
+
+.container{
+    padding: 50px 80px;
+    background: #634305;
+    border: 10px solid #9b6e13;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+    text-align: center;
+    height: 25rem;
+}
+
+ h1{
+    color: #da9917;
+    font-size: 40px;
+    
+}
+
+.container p{
+    padding: 3px 5px;
+    background: white;
+    margin-top: 100px;
+}
+
+.bet{
+    padding: 10px;
+    background:  #9b6e13;
+}
+
+select{
+    background: none;
+    border: 1px solid #634305;
+}
+
+.box1, .box2, .box3{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 3px;
+    border: 2px solid rgb(212, 197, 197);
+}
+
+.blocks{
+    display: flex;
+    gap: 20px;
+    padding: 10px 15px;
+    justify-content: center;
+    border: 10px solid #9b6e13;
+    background: none;
+}
+
+.box1{
+    background: red;
+}
+
+.box2{
+    background: green;
+}
+
+.box3{
+    background: yellow;
+}
+
+.wrap{
+    text-align: center;
+    padding: 30px;
+    background: #634305;
+    border: 10px solid #9b6e13;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+}
+
+.wrap .blocks{
+    padding: 10px 20px;
+    box-shadow: 0px 0px 2px;
+    background: #9b6e13;
+}
+
+.box{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid rgb(212, 197, 197);
+}
+
+.box{
+    background: red;
+}
+
+.color-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 15rem;
+    padding: 40px 25px;
+    justify-content: center;
+    border: 10px solid #9b6e13;
+    margin-top: 20px;
+}
+
+.color-box{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 3px;
+    border: 1px solid rgb(212, 197, 197);
+    cursor: pointer;
+}
+
+.input-wrap{
+    padding: 10px;
+    margin-top: 30px;
+}
+
+label{
+    padding: 15px;
+    font-size: 12px;
+    border: 2px solid gray;
+    border-radius: 100%;
+}
+
+.input-wrap input{
+    display: none;
+}
+
+.win{
+    background: rgba(0, 0, 0, 0.473);
+    text-align: center;
+    font-size: 40px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 35%;
+    padding: 20px 0;
+    color: #9b6e13;
+    font-family: fantasy;
+    pointer-events: none;
+}
+
+.win p{
+    color: white;
+    font-family: sans-serif;
+}
